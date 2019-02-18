@@ -48,5 +48,37 @@ public class Main {
         //和上个版本进行比较,查看修改的内容
         //git diff 文件
         //注:按q退出查看
+
+        //查看日志
+        //git log
+        //
+        //版本回退
+        //git reset --hard 版本号
+        //git reset --hard 5b88373e5174b358d4bf6cdbc07a9b65bfc17df1
+        //git reset --hard 5b88373
+        //
+        //HEAD:当前的指向
+        //退回到HEAD的前一个指向
+        //git reset --hard HEAD^
+        //一个^代表一级
+        //git reset --hard HEAD^^
+        //~后面是次数
+        //git reset --hard HEAD~100
+        //查看所有日志
+        //git reflog
+        //
+        //工作区,暂存区,版本库,远程仓库
+        //工作区:当前编辑的工程(工程区不是所有的工程都能进行版本控制)
+        //暂存区:当执行了git add后,文件会存入暂存区
+        //版本库:当执行了git commit后,会把暂存区的文件提交到版本库
+        //注:工作区,暂存区,版本库都在自己的电脑上
+        //暂存区,版本库在.git文件夹中(.git文件夹是隐藏文件夹(Git01 -> 右键Show in Explorer进入))
+        //远程仓库:git服务器
+
+        //练习:
+        //1.为Girl添加购物方法
+        //2.add
+        //3.为Girl添加休息方法
+        //4.commit
     }
 }
