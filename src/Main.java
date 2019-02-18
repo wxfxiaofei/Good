@@ -57,7 +57,7 @@ public class Main {
         //git reset --hard 5b88373e5174b358d4bf6cdbc07a9b65bfc17df1
         //git reset --hard 5b88373
         //
-        //HEAD:当前的指向
+        //HEAD:当前的指向,最后一次提交的位置
         //退回到HEAD的前一个指向
         //git reset --hard HEAD^
         //一个^代表一级
@@ -80,5 +80,10 @@ public class Main {
         //2.add
         //3.为Girl添加休息方法
         //4.commit
+
+        //撤销修改
+        //1.工作区:直接修改,或 命令:git checkout -- 文件
+        //2.暂存区:直接修改,再次add,或 命令:git reset HEAD 文件
+        //3.版本库:版本回退
     }
 }
